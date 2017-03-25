@@ -21,12 +21,11 @@ $(document).ready(function () {
 	  $mousedown=false
 	  console.log(e);
 	});
-	
+
 	$('#pencil-form').submit(function (event) {
 		event.preventDefault();
-		
+
 		var inputValue = $('input[name="symbol"]').val();
 		$symbol = inputValue;
 	});
-
 });

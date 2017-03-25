@@ -1,0 +1,40 @@
+body{
+  background: #00102b;
+  color: white;
+  margin: 0;
+  padding: 0px;
+}
+.top-header{
+  background: #002e7a;
+  padding: 5px;
+  margin: 0px;
+  font-family: Tahoma, Geneva, sans-serif;
+}
+.header-nav{
+  position: absolute;
+  top: 5px;
+  right: 5px;
+}
+.header-logo{
+  top: 5px;
+  left: 5px;
+}
+.page-title{
+  padding-left: 15px;
+}
+/* Start of table formating */
+#editor-table{
+  display: table;
+  color: white;
+  background-color: rgb(25,25,25);
+  padding: 8px;
+  margin: auto;
+  padding: 1px;
+  text-align: left;
+  letter-spacing: 0px;
+}
+td{width: 10px;}
+/* End of table formating */
+#copy-textarea{
+  display: none;
+}

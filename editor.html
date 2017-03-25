@@ -11,31 +11,30 @@
 		<link rel="stylesheet" href="stylesheet.css" rel="stylesheet">
 		<link rel="shortcut icon" href="./img/logo_50x50.png">
 		<script src="scripts/jquery-3.2.0.min.js"></script>
-
 	</head>
 	<body>
-		<header>
+		<header class="top-header">
 			<div class="header-logo">
 				<img src="editor/img/tas_logo_50x50.png" alt="Type Art Studio's Logo" height="40" width="40">
 				<em>Text Art Studio</em>
 			</div>
 			<nav class="header-nav">
-				<div class="nav-editor">
+				<span class="nav-editor">
 					<button type="button">
 						<a href="editor.html">
 							<img src="./img/editor_tmbnl_50x50.png" alt="Editor Tab" height="30" width="30">
 							<em>Editor</em>
 						</a>
 					</button>
-				</div>
-				<div class="nav-help">
+				</span>
+				<span class="nav-help">
 					<button type="button">
 						<a href="help.html">
 							<img src="./img/help_tmbnl_50x50.png" alt="Help Tab" height="30" width="30">
 							<em>Help</em>
 						</a>
 					</button>
-				</div>
+				</span>
 			</nav>
 		</header>
 		<article>
@@ -82,7 +81,7 @@
 				<!-- End Editor Control Panel -->
 				<div class="pensil-settings">
 					<form id="pencil-form" method="post">
-						<em>Other Charecter: </em><input type="text" name="symbol" size="1" maxlength="1"><br>
+						<em>Other Character: </em><input type="text" name="symbol" size="1" maxlength="1"><br>
 						<input type="submit" value="Submit">
 					</form>
 				</div>
@@ -544,7 +543,7 @@
 						</table>
 					</div>
 					<div class="textarea-export">
-						<textarea readonly rows="20" cols="20">
+						<textarea id="copy-textarea" readonly rows="20" cols="20">
 						</textarea>
 					</div>
 				</div>
