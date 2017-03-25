@@ -10,7 +10,7 @@
 		<title>Type Art Studio - Editor</title>
 		<link rel="stylesheet" href="stylesheet.css" rel="stylesheet">
 		<link rel="shortcut icon" href="./img/logo_50x50.png">
-		<script src="jquery-3.2.0.min.js"></script>
+		<script src="scripts/jquery-3.2.0.min.js"></script>
 
 	</head>
 	<body>
@@ -80,6 +80,12 @@
 					</div>
 				</div>
 				<!-- End Editor Control Panel -->
+				<div class="pensil-settings">
+					<form id="pencil-form" method="post">
+						<em>Other Charecter: </em><input type="text" name="symbol" size="1" maxlength="1"><br>
+						<input type="submit" value="Submit">
+					</form>
+				</div>
 				<!-- Start Editor Output Controls -->
 				<div class="editor-controls">
 					<button id="save">
@@ -93,8 +99,8 @@
 			<!-- Start Main  -->
 			<section class="left-panel">
 				<div class="editor-main">
-					<div class="editor-table">
-						<table>
+					<div>
+						<table id="editor-table">
 							<tr>
 								<td>.</td>
 								<td>.</td>
@@ -562,7 +568,7 @@
 		</footer>
 		<!-- End of Footer Section -->
 
-		<script src="main.js"></script>
-    <script src="unselectable-objects.js"></script>
+		<script src="scripts/main.js"></script>
+		<script src="scripts/unselectable-objects.js"></script>
 	</body>
 </html>

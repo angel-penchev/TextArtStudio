@@ -12,5 +12,5 @@ $.fn.extend({
   }
 });
 $(document).ready(function() {
-  $('label').disableSelection();
+  $('body').disableSelection();
 });
