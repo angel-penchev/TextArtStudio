@@ -1,27 +1,57 @@
 body{
-  background: #00102b;
+  background: #26262c;
   color: white;
   margin: 0;
   padding: 0px;
 }
 .top-header{
-  background: #002e7a;
+  background: #1c1c22;
   padding: 5px;
   margin: 0px;
   font-family: Tahoma, Geneva, sans-serif;
+}
+.header-logo{
+  top: 5px;
+  left: 5px;
 }
 .header-nav{
   position: absolute;
   top: 5px;
   right: 5px;
 }
-.header-logo{
-  top: 5px;
-  left: 5px;
-}
 .page-title{
   padding-left: 15px;
 }
+/* Start of editor settings formating */
+.editor-settings-select{
+  margin-top:5px;
+  margin-bottom: 5px;
+  margin-left: 15px;
+  width: 50px;
+  background-color: #1c1c22;
+}
+.tool-pencil{
+  padding: 3px;
+}
+#usePencil{
+  padding: 0px;
+}
+.tool-bucket{
+  padding: 3px;
+}
+#useBucket{
+  padding: 0px;
+}
+.tool-settings{
+  padding: 3px;
+}
+#useSettings{
+  padding: 0px;
+}
+.pencil-settings{
+  background-color: #1c1c22;
+}
+/*End of editor settings formating*/
 /* Start of table formating */
 #editor-table{
   display: table;
@@ -32,9 +62,33 @@ body{
   padding: 1px;
   text-align: left;
   letter-spacing: 0px;
+  cursor: pointer;
 }
-td{width: 10px;}
+td{width: 10px;
+   height: 18px;
+   background-color: rgb(15,15,15)
+}
 /* End of table formating */
 #copy-textarea{
   display: none;
 }
+/* Start of footer formating*/
+.bottom-footer{
+  background: #1c1c22;
+  padding: 5px;
+  margin: 0px;
+}
+.footer-info{
+  bottom: 5px;
+  left: 5px;
+}
+.footer-teamname{
+  bottom: 5px;
+  left: 5px;
+}
+.footer-links{
+  position: absolute;
+  bottom: 5px;
+  right: 5px;
+}
+/*End of footer formating*/
