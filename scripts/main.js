@@ -1,6 +1,6 @@
 $(document).ready(function () {
 	var $mousedown=false
-	var $symbol="/"
+	var $symbol="."
 	$('td').mousedown(function(e){
 	   //alert(e );
 	   console.log(e);
